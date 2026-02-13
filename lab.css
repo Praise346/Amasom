@@ -1,0 +1,29 @@
+body {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+img {
+    border-width: 4px;
+    border-color: black;
+    width: 245px;
+    border-radius: 2px;
+    animation: blink 2s infinite;
+
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
